@@ -1,0 +1,322 @@
+2024-11-05 12:30:07,850 - __main__ - INFO - Starting development scraping for Amsterdam
+2024-11-05 12:30:07,850 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/beleid
+2024-11-05 12:30:09,876 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving
+2024-11-05 12:30:11,248 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/over-amsterdam/projecten
+2024-11-05 12:30:13,236 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/projecten
+2024-11-05 12:30:13,381 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bouwen-en-wonen
+2024-11-05 12:30:15,253 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/omgevingsvisie
+2024-11-05 12:30:17,674 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-05 12:30:26,434 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-05 12:30:27,493 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-05 12:30:50,174 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestemmingsplannen
+2024-11-05 12:30:51,468 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-en-organisatie/beleid
+2024-11-05 12:30:53,122 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen
+2024-11-05 12:30:54,687 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/ruimtelijke-ontwikkeling
+2024-11-05 12:30:56,666 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/gebiedsontwikkeling
+2024-11-05 12:30:57,685 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/vastgoed
+2024-11-05 12:30:59,493 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/ontwikkeling
+2024-11-05 12:31:01,287 - __main__ - INFO - Completed scraping for Amsterdam
+2024-11-05 12:31:01,287 - __main__ - INFO - Found 5 development pages
+2024-11-05 12:31:01,287 - __main__ - INFO - Found 3 PDF documents
+2024-11-05 12:31:01,287 - __main__ - INFO - Found 0 development areas
+2024-11-05 12:31:28,568 - __main__ - INFO - Starting development scraping for Vught
+2024-11-05 12:31:28,569 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/bestuur-organisatie/beleid
+2024-11-05 12:31:30,807 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/wonen-leefomgeving
+2024-11-05 12:31:31,761 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/over-vught/projecten
+2024-11-05 12:31:32,809 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/projecten
+2024-11-05 12:31:33,893 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/bouwen-en-wonen
+2024-11-05 12:31:34,327 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/omgevingsvisie
+2024-11-05 12:31:35,654 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/bestemmingsplannen
+2024-11-05 12:31:36,108 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/bestuur-en-organisatie/beleid
+2024-11-05 12:31:37,606 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/wonen
+2024-11-05 12:31:39,193 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/ruimtelijke-ontwikkeling
+2024-11-05 12:31:40,311 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/gebiedsontwikkeling
+2024-11-05 12:31:41,230 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/vastgoed
+2024-11-05 12:31:42,416 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.vught.nl/ontwikkeling
+2024-11-05 12:31:43,514 - __main__ - INFO - Completed scraping for Vught
+2024-11-05 12:31:43,514 - __main__ - INFO - Found 2 development pages
+2024-11-05 12:31:43,514 - __main__ - INFO - Found 0 PDF documents
+2024-11-05 12:31:43,514 - __main__ - INFO - Found 0 development areas
+2024-11-05 21:01:26,567 - __main__ - INFO - Starting structured scraping for Amsterdam
+2024-11-05 21:01:26,568 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling
+2024-11-05 21:01:27,945 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/woningbouw-transformatie
+2024-11-05 21:01:29,440 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling
+2024-11-05 21:01:30,709 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-05 21:01:40,573 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-05 21:01:41,859 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-05 21:02:05,099 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/omgevingsvisie
+2024-11-05 21:02:06,724 - __main__ - INFO - Starting intelligent scraping for Amsterdam
+2024-11-05 21:02:06,735 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for Amsterdam
+2024-11-05 21:02:07,615 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-05 21:02:07,616 - src.scrapers.intelligent_scraper - ERROR - Error getting search strategy: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_object' is not supported with this model.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2024-11-05 21:02:14,216 - __main__ - INFO - 
+Results summary for Amsterdam:
+2024-11-05 21:02:14,216 - __main__ - INFO - Structured scraping results:
+2024-11-05 21:02:14,216 - __main__ - INFO - - Development pages: 3
+2024-11-05 21:02:14,216 - __main__ - INFO - - PDF documents: 3
+2024-11-05 21:02:14,216 - __main__ - INFO - - Development areas: 0
+2024-11-05 21:02:14,217 - __main__ - INFO - Intelligent scraping results:
+2024-11-05 21:02:14,217 - __main__ - INFO - - Relevant pages: 0
+2024-11-05 21:02:14,217 - __main__ - INFO - - Development opportunities: 0
+2024-11-05 21:02:14,217 - __main__ - INFO - Total combined opportunities: 0
+2024-11-05 21:15:13,036 - __main__ - INFO - Starting structured scraping for Amsterdam
+2024-11-05 21:15:13,037 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling
+2024-11-05 21:15:13,222 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/woningbouw-transformatie
+2024-11-05 21:15:13,374 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling
+2024-11-05 21:15:13,498 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-05 21:15:23,761 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-05 21:15:25,066 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-05 21:15:50,286 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/omgevingsvisie
+2024-11-05 21:15:50,448 - __main__ - INFO - Starting intelligent scraping for Amsterdam
+2024-11-05 21:15:50,453 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for Amsterdam
+2024-11-05 21:16:03,589 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 21:16:12,331 - __main__ - INFO - 
+Results summary for Amsterdam:
+2024-11-05 21:16:12,332 - __main__ - INFO - Structured scraping results:
+2024-11-05 21:16:12,332 - __main__ - INFO - - Development pages: 3
+2024-11-05 21:16:12,332 - __main__ - INFO - - PDF documents: 3
+2024-11-05 21:16:12,332 - __main__ - INFO - - Development areas: 0
+2024-11-05 21:16:12,332 - __main__ - INFO - Intelligent scraping results:
+2024-11-05 21:16:12,332 - __main__ - INFO - - Relevant pages: 0
+2024-11-05 21:16:12,332 - __main__ - INFO - - Development opportunities: 0
+2024-11-05 21:16:12,332 - __main__ - INFO - Total combined opportunities: 0
+2024-11-05 22:00:01,035 - __main__ - INFO - Starting structured scraping for Amsterdam
+2024-11-05 22:00:01,037 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling
+2024-11-05 22:00:01,240 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/woningbouw-transformatie
+2024-11-05 22:00:01,368 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling
+2024-11-05 22:00:01,532 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-05 22:00:11,048 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-05 22:00:12,233 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-05 22:00:35,319 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/omgevingsvisie
+2024-11-05 22:00:35,461 - __main__ - INFO - Starting intelligent scraping for Amsterdam
+2024-11-05 22:00:35,466 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for Amsterdam
+2024-11-05 22:00:49,165 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 22:00:59,985 - __main__ - INFO - 
+Results summary for Amsterdam:
+2024-11-05 22:00:59,986 - __main__ - INFO - Structured scraping results:
+2024-11-05 22:00:59,986 - __main__ - INFO - - Development pages: 3
+2024-11-05 22:00:59,986 - __main__ - INFO - - PDF documents: 3
+2024-11-05 22:00:59,986 - __main__ - INFO - - Development areas: 0
+2024-11-05 22:00:59,986 - __main__ - INFO - Intelligent scraping results:
+2024-11-05 22:00:59,986 - __main__ - INFO - - Relevant pages: 0
+2024-11-05 22:00:59,986 - __main__ - INFO - - Development opportunities: 0
+2024-11-05 22:00:59,986 - __main__ - INFO - Total combined opportunities: 0
+2024-11-05 22:06:31,435 - __main__ - INFO - Starting structured scraping for Amsterdam
+2024-11-05 22:06:31,436 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling
+2024-11-05 22:06:32,721 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/woningbouw-transformatie
+2024-11-05 22:06:34,033 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling
+2024-11-05 22:06:34,888 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-05 22:06:45,056 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-05 22:06:47,561 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-05 22:07:13,634 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/omgevingsvisie
+2024-11-05 22:07:15,081 - __main__ - INFO - Starting intelligent scraping for Amsterdam
+2024-11-05 22:07:15,091 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for Amsterdam
+2024-11-05 22:07:25,917 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 22:07:35,363 - __main__ - INFO - 
+Results summary for Amsterdam:
+2024-11-05 22:07:35,364 - __main__ - INFO - Structured scraping results:
+2024-11-05 22:07:35,364 - __main__ - INFO - - Development pages: 3
+2024-11-05 22:07:35,364 - __main__ - INFO - - PDF documents: 3
+2024-11-05 22:07:35,364 - __main__ - INFO - - Development areas: 0
+2024-11-05 22:07:35,364 - __main__ - INFO - Intelligent scraping results:
+2024-11-05 22:07:35,364 - __main__ - INFO - - Relevant pages: 0
+2024-11-05 22:07:35,364 - __main__ - INFO - - Development opportunities: 0
+2024-11-05 22:07:35,364 - __main__ - INFO - Total combined opportunities: 0
+2024-11-05 22:12:35,417 - __main__ - INFO - Starting structured scraping for Amsterdam
+2024-11-05 22:12:35,419 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling
+2024-11-05 22:12:35,569 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/woningbouw-transformatie
+2024-11-05 22:12:35,730 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling
+2024-11-05 22:12:35,857 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-05 22:12:45,287 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-05 22:12:46,456 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-05 22:13:09,800 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/omgevingsvisie
+2024-11-05 22:13:09,990 - __main__ - INFO - Starting intelligent scraping for Amsterdam
+2024-11-05 22:13:09,999 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for Amsterdam
+2024-11-05 22:13:23,225 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 22:13:34,280 - __main__ - INFO - 
+Results summary for Amsterdam:
+2024-11-05 22:13:34,281 - __main__ - INFO - Structured scraping results:
+2024-11-05 22:13:34,281 - __main__ - INFO - - Development pages: 3
+2024-11-05 22:13:34,281 - __main__ - INFO - - PDF documents: 3
+2024-11-05 22:13:34,281 - __main__ - INFO - - Development areas: 0
+2024-11-05 22:13:34,281 - __main__ - INFO - Intelligent scraping results:
+2024-11-05 22:13:34,281 - __main__ - INFO - - Relevant pages: 0
+2024-11-05 22:13:34,281 - __main__ - INFO - - Development opportunities: 0
+2024-11-05 22:13:34,281 - __main__ - INFO - Total combined opportunities: 0
+2024-11-06 17:12:13,142 - __main__ - INFO - Starting structured scraping for Amsterdam
+2024-11-06 17:12:13,143 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling
+2024-11-06 17:12:13,978 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/woningbouw-transformatie
+2024-11-06 17:12:14,918 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling
+2024-11-06 17:12:15,741 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-06 17:12:25,256 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-06 17:12:26,512 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-06 17:12:49,425 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/omgevingsvisie
+2024-11-06 17:12:50,846 - __main__ - INFO - Starting intelligent scraping for Amsterdam
+2024-11-06 17:12:50,846 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for Amsterdam
+2024-11-06 17:12:50,847 - src.scrapers.intelligent_scraper - ERROR - Error getting search strategy: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:12:55,741 - src.scrapers.intelligent_scraper - ERROR - Error analyzing content: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:12:56,814 - src.scrapers.intelligent_scraper - ERROR - Error analyzing content: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:12:57,935 - src.scrapers.intelligent_scraper - ERROR - Error analyzing content: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:12:59,171 - src.scrapers.intelligent_scraper - ERROR - Error analyzing content: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:13:00,314 - src.scrapers.intelligent_scraper - ERROR - Error analyzing content: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:13:01,385 - src.scrapers.intelligent_scraper - ERROR - Error analyzing content: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:13:02,415 - src.scrapers.intelligent_scraper - ERROR - Error analyzing content: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:13:03,448 - src.scrapers.intelligent_scraper - ERROR - Error analyzing content: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:13:04,478 - src.scrapers.intelligent_scraper - ERROR - Error analyzing content: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:13:05,509 - src.scrapers.intelligent_scraper - ERROR - Error analyzing content: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:13:06,547 - src.scrapers.intelligent_scraper - ERROR - Error analyzing content: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:13:07,577 - src.scrapers.intelligent_scraper - ERROR - Error analyzing content: 'IntelligentScraper' object has no attribute 'client'
+2024-11-06 17:24:37,400 - __main__ - INFO - Starting structured scraping for Amsterdam
+2024-11-06 17:24:37,400 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling
+2024-11-06 17:24:37,558 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/woningbouw-transformatie
+2024-11-06 17:24:37,688 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling
+2024-11-06 17:24:37,806 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-06 17:24:47,487 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-06 17:24:48,719 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-06 17:25:11,448 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/omgevingsvisie
+2024-11-06 17:25:11,591 - __main__ - INFO - Starting intelligent scraping for Amsterdam
+2024-11-06 17:25:11,599 - src.scrapers.intelligent_scraper - INFO - OpenAI client initialized successfully
+2024-11-06 17:25:11,599 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for Amsterdam
+2024-11-06 17:25:23,493 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 17:25:34,278 - src.scrapers.intelligent_scraper - INFO - Processing 0 PDF documents
+2024-11-06 17:25:34,283 - __main__ - INFO - 
+Results summary for Amsterdam:
+2024-11-06 17:25:34,283 - __main__ - INFO - Structured scraping results:
+2024-11-06 17:25:34,283 - __main__ - INFO - - Development pages: 3
+2024-11-06 17:25:34,283 - __main__ - INFO - - PDF documents: 3
+2024-11-06 17:25:34,283 - __main__ - INFO - - Development areas: 0
+2024-11-06 17:25:34,283 - __main__ - INFO - Intelligent scraping results:
+2024-11-06 17:25:34,283 - __main__ - INFO - - Relevant pages: 0
+2024-11-06 17:25:34,283 - __main__ - INFO - - Development opportunities: 0
+2024-11-06 17:25:34,283 - __main__ - INFO - Total combined opportunities: 0
+2024-11-06 17:42:26,624 - __main__ - INFO - Starting structured scraping for Amsterdam
+2024-11-06 17:42:26,626 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling
+2024-11-06 17:42:26,797 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/woningbouw-transformatie
+2024-11-06 17:42:26,927 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling
+2024-11-06 17:42:27,038 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-06 17:42:36,633 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-06 17:42:37,836 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-06 17:43:00,648 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/omgevingsvisie
+2024-11-06 17:43:00,791 - __main__ - INFO - Starting intelligent scraping for Amsterdam
+2024-11-06 17:43:00,798 - src.scrapers.intelligent_scraper - INFO - OpenAI client initialized successfully
+2024-11-06 17:43:00,798 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for Amsterdam
+2024-11-06 17:43:16,324 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 17:43:27,134 - src.scrapers.intelligent_scraper - INFO - Processing 0 PDF documents
+2024-11-06 17:43:27,139 - __main__ - INFO - 
+Results summary for Amsterdam:
+2024-11-06 17:43:27,139 - __main__ - INFO - Structured scraping results:
+2024-11-06 17:43:27,139 - __main__ - INFO - - Development pages: 3
+2024-11-06 17:43:27,139 - __main__ - INFO - - PDF documents: 3
+2024-11-06 17:43:27,139 - __main__ - INFO - - Development areas: 0
+2024-11-06 17:43:27,139 - __main__ - INFO - Intelligent scraping results:
+2024-11-06 17:43:27,139 - __main__ - INFO - - Relevant pages: 0
+2024-11-06 17:43:27,139 - __main__ - INFO - - Development opportunities: 0
+2024-11-06 17:43:27,140 - __main__ - INFO - Total combined opportunities: 0
+2024-11-06 22:45:51,923 - __main__ - INFO - Starting structured scraping for Amsterdam
+2024-11-06 22:45:51,924 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling
+2024-11-06 22:45:52,808 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/woningbouw-transformatie
+2024-11-06 22:45:53,795 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling
+2024-11-06 22:45:54,745 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-06 22:46:04,747 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-06 22:46:06,013 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-06 22:46:29,496 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/omgevingsvisie
+2024-11-06 22:46:30,743 - __main__ - INFO - Starting intelligent scraping for Amsterdam
+2024-11-06 22:46:30,752 - src.scrapers.intelligent_scraper - INFO - OpenAI client initialized successfully
+2024-11-06 22:46:30,752 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for Amsterdam
+2024-11-06 22:46:43,980 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 22:47:01,096 - src.scrapers.intelligent_scraper - INFO - Processing 0 PDF documents
+2024-11-06 22:47:01,101 - __main__ - INFO - 
+Results summary for Amsterdam:
+2024-11-06 22:47:01,101 - __main__ - INFO - Structured scraping results:
+2024-11-06 22:47:01,101 - __main__ - INFO - - Development pages: 3
+2024-11-06 22:47:01,101 - __main__ - INFO - - PDF documents: 3
+2024-11-06 22:47:01,101 - __main__ - INFO - - Development areas: 0
+2024-11-06 22:47:01,101 - __main__ - INFO - Intelligent scraping results:
+2024-11-06 22:47:01,101 - __main__ - INFO - - Relevant pages: 0
+2024-11-06 22:47:01,102 - __main__ - INFO - - Development opportunities: 0
+2024-11-06 22:47:01,102 - __main__ - INFO - Total combined opportunities: 0
+2024-11-06 22:48:31,162 - __main__ - INFO - Starting structured scraping for Amsterdam
+2024-11-06 22:48:31,163 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling
+2024-11-06 22:48:31,337 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/woningbouw-transformatie
+2024-11-06 22:48:31,462 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling
+2024-11-06 22:48:31,577 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-06 22:48:41,529 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-06 22:48:42,740 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-06 22:49:06,031 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/omgevingsvisie
+2024-11-06 22:49:06,165 - __main__ - INFO - Starting intelligent scraping for Amsterdam
+2024-11-06 22:49:06,172 - src.scrapers.intelligent_scraper - INFO - OpenAI client initialized successfully
+2024-11-06 22:49:06,172 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for Amsterdam
+2024-11-06 22:49:14,410 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 22:49:25,151 - src.scrapers.intelligent_scraper - INFO - Processing 0 PDF documents
+2024-11-06 22:49:25,154 - __main__ - INFO - 
+Results summary for Amsterdam:
+2024-11-06 22:49:25,154 - __main__ - INFO - Structured scraping results:
+2024-11-06 22:49:25,154 - __main__ - INFO - - Development pages: 3
+2024-11-06 22:49:25,154 - __main__ - INFO - - PDF documents: 3
+2024-11-06 22:49:25,154 - __main__ - INFO - - Development areas: 0
+2024-11-06 22:49:25,154 - __main__ - INFO - Intelligent scraping results:
+2024-11-06 22:49:25,154 - __main__ - INFO - - Relevant pages: 0
+2024-11-06 22:49:25,154 - __main__ - INFO - - Development opportunities: 0
+2024-11-06 22:49:25,154 - __main__ - INFO - Total combined opportunities: 0
+2024-11-06 22:49:30,578 - __main__ - INFO - Starting structured scraping for vught
+2024-11-06 22:49:30,578 - __main__ - INFO - Starting intelligent scraping for vught
+2024-11-06 22:49:30,587 - src.scrapers.intelligent_scraper - INFO - OpenAI client initialized successfully
+2024-11-06 22:49:30,587 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for vught
+2024-11-06 22:49:37,797 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 22:49:50,580 - src.scrapers.intelligent_scraper - INFO - Processing 0 PDF documents
+2024-11-06 22:49:50,583 - __main__ - INFO - 
+Results summary for vught:
+2024-11-06 22:49:50,583 - __main__ - INFO - Structured scraping results:
+2024-11-06 22:49:50,583 - __main__ - INFO - - Development pages: 0
+2024-11-06 22:49:50,583 - __main__ - INFO - - PDF documents: 0
+2024-11-06 22:49:50,583 - __main__ - INFO - - Development areas: 0
+2024-11-06 22:49:50,583 - __main__ - INFO - Intelligent scraping results:
+2024-11-06 22:49:50,583 - __main__ - INFO - - Relevant pages: 0
+2024-11-06 22:49:50,584 - __main__ - INFO - - Development opportunities: 0
+2024-11-06 22:49:50,584 - __main__ - INFO - Total combined opportunities: 0
+2024-11-07 21:50:20,952 - __main__ - INFO - Starting structured scraping for Amsterdam
+2024-11-07 21:50:20,954 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling
+2024-11-07 21:50:22,172 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/woningbouw-transformatie
+2024-11-07 21:50:23,201 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling
+2024-11-07 21:50:24,055 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-07 21:50:33,747 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-07 21:50:34,923 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-07 21:50:57,505 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/omgevingsvisie
+2024-11-07 21:50:58,768 - __main__ - INFO - Starting intelligent scraping for Amsterdam
+2024-11-07 21:50:58,793 - src.scrapers.intelligent_scraper - INFO - OpenAI client initialized successfully
+2024-11-07 21:50:58,793 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for Amsterdam
+2024-11-07 21:51:18,371 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-07 21:51:35,477 - src.scrapers.intelligent_scraper - INFO - Processing 0 PDF documents
+2024-11-07 21:51:35,481 - __main__ - INFO - 
+Results summary for Amsterdam:
+2024-11-07 21:51:35,481 - __main__ - INFO - Structured scraping results:
+2024-11-07 21:51:35,481 - __main__ - INFO - - Development pages: 3
+2024-11-07 21:51:35,481 - __main__ - INFO - - PDF documents: 3
+2024-11-07 21:51:35,481 - __main__ - INFO - - Development areas: 0
+2024-11-07 21:51:35,481 - __main__ - INFO - Intelligent scraping results:
+2024-11-07 21:51:35,481 - __main__ - INFO - - Relevant pages: 0
+2024-11-07 21:51:35,481 - __main__ - INFO - - Development opportunities: 0
+2024-11-07 21:51:35,481 - __main__ - INFO - Total combined opportunities: 0
+2024-11-07 21:53:03,315 - __main__ - INFO - Starting structured scraping for Amsterdam
+2024-11-07 21:53:03,317 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling
+2024-11-07 21:53:03,465 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/woningbouw-transformatie
+2024-11-07 21:53:03,616 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling
+2024-11-07 21:53:03,733 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Amsterdam 2050 (PDF, 38 MB)
+2024-11-07 21:53:13,180 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: Omgevingsvisie Weesp (PDF, 9,1 MB)
+2024-11-07 21:53:14,457 - src.scrapers.municipality_development_scraper - INFO - Found relevant PDF: monitor omgevingsvisie (PDF, 41 MB)
+2024-11-07 21:53:37,633 - src.scrapers.municipality_development_scraper - INFO - Scraping https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/omgevingsvisie
+2024-11-07 21:53:37,782 - __main__ - INFO - Starting intelligent scraping for Amsterdam
+2024-11-07 21:53:37,803 - src.scrapers.intelligent_scraper - INFO - OpenAI client initialized successfully
+2024-11-07 21:53:37,803 - src.scrapers.intelligent_scraper - INFO - Getting search strategy for Amsterdam
+2024-11-07 21:53:44,394 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-07 21:53:55,180 - src.scrapers.intelligent_scraper - INFO - Processing 0 PDF documents
+2024-11-07 21:53:55,184 - __main__ - INFO - 
+Results summary for Amsterdam:
+2024-11-07 21:53:55,184 - __main__ - INFO - Structured scraping results:
+2024-11-07 21:53:55,185 - __main__ - INFO - - Development pages: 3
+2024-11-07 21:53:55,185 - __main__ - INFO - - PDF documents: 3
+2024-11-07 21:53:55,185 - __main__ - INFO - - Development areas: 0
+2024-11-07 21:53:55,185 - __main__ - INFO - Intelligent scraping results:
+2024-11-07 21:53:55,185 - __main__ - INFO - - Relevant pages: 0
+2024-11-07 21:53:55,185 - __main__ - INFO - - Development opportunities: 0
+2024-11-07 21:53:55,185 - __main__ - INFO - Total combined opportunities: 0
