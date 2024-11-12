@@ -1,0 +1,361 @@
+{
+  "gemeente": "Amsterdam",
+  "timestamp": "2024-11-09T21:24:56.444838",
+  "discovered_urls": {
+    "google_results": [
+      {
+        "url": "https://www.nul20.nl/amsterdam-zoekt-nieuwe-ontwikkellocaties-voor-20000-woningen",
+        "query": "Amsterdam ontwikkellocatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://assets.amsterdam.nl/publish/pages/1049813/240501_ontwikkelstrategie_2035_3_.pdf",
+        "query": "Amsterdam ontwikkellocatie",
+        "source": "google_search",
+        "type": "pdf"
+      },
+      {
+        "url": "https://propertynl.com/Nieuws/Vorm-verwerft-ontwikkellocatie-in-Amsterdam-Sloterdijk/337d0433-4a03-4807-ad5e-4dc0aa85e678",
+        "query": "Amsterdam ontwikkellocatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-economie/grond-en-ontwikkeling/gebiedsontwikkeling/",
+        "query": "Amsterdam ontwikkellocatie",
+        "source": "google_search",
+        "type": "municipality"
+      },
+      {
+        "url": "https://vorm.nl/actueel/vorm-en-mooi-verwerven-ontwikkellocatie-sloterdijk",
+        "query": "Amsterdam ontwikkellocatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.duravermeer.nl/nieuws/dura-vermeer-koopt-ontwikkellocatie-in-amsterdam-voor-ontwikkeling-en-realisatie-middensegment-huur-en-sociale-koopwoningen/",
+        "query": "Amsterdam ontwikkellocatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.nul20.nl/wonen/grote-projecten",
+        "query": "Amsterdam ontwikkellocatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.nieuwbouw-in-amsterdam.nl/project/6739/havenstraatterrein/",
+        "query": "Amsterdam ontwikkellocatie",
+        "source": "google_search",
+        "type": "municipality"
+      },
+      {
+        "url": "https://www.goudappel.nl/nl/projecten/knelpuntanalyse-en-simulatie-ontwikkellocatie-ijburglaan-amsterdam",
+        "query": "Amsterdam ontwikkellocatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://vastgoedjournaal.nl/news/64031/vorm-en-mooi-kopen-ontwikkellocatie-sloterdijk",
+        "query": "Amsterdam ontwikkellocatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.omgevingsweb.nl/nieuws/amsterdam-kiest-nieuwe-woningbouwstrategie-gebaseerd-op-de-diversiteit-van-de-stad/",
+        "query": "Amsterdam ontwikkellocatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://openresearch.amsterdam/nl/page/104808/monitor-omgevingsvisie-amsterdam-november-2023",
+        "query": "Amsterdam omgevingsvisie 2024",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://openresearch.amsterdam/nl/page/41852/omgevingsvisie-amsterdam-2050",
+        "query": "Amsterdam omgevingsvisie 2024",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://amsterdam2050.nl/wp-content/uploads/2021/09/Omgevingsvisie-Amsterdam-2050_Lage-resolutie.pdf",
+        "query": "Amsterdam omgevingsvisie 2024",
+        "source": "google_search",
+        "type": "pdf"
+      },
+      {
+        "url": "https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling/",
+        "query": "Amsterdam omgevingsvisie 2024",
+        "source": "google_search",
+        "type": "municipality"
+      },
+      {
+        "url": "https://lokaleregelgeving-eto.overheid.nl/CVDR758162",
+        "query": "Amsterdam omgevingsvisie 2024",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://lokaleregelgeving-eto.overheid.nl/CVDR758162/2?&show-wti=true",
+        "query": "Amsterdam omgevingsvisie 2024",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.denationaleomgevingsvisie.nl/novex/aanpak+per+gebied/metropoolregio+amsterdam/default.aspx",
+        "query": "Amsterdam omgevingsvisie 2024",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://commissiemer.nl/projectdocumenten/00007881.pdf",
+        "query": "Amsterdam omgevingsvisie 2024",
+        "source": "google_search",
+        "type": "pdf"
+      },
+      {
+        "url": "https://www.nul20.nl/dossiers/toekomstvisie-amsterdam-2050",
+        "query": "Amsterdam omgevingsvisie 2024",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://kennisvanstadenregio.nl/nieuws-1/leefomgeving/monitor-omgevingsvisie-amsterdam",
+        "query": "Amsterdam omgevingsvisie 2024",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://vng.nl/artikelen/26-april-2024-omgevingsvisie-en-publiceren-in-stoptpod-de-techniek",
+        "query": "Amsterdam omgevingsvisie 2024",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.amsterdam.nl/wonen-leefomgeving/omgevingsvergunning/afwijken-van-een-bestemmingsplan/",
+        "query": "Amsterdam bestemmingsplan wijziging",
+        "source": "google_search",
+        "type": "municipality"
+      },
+      {
+        "url": "https://www.amsterdam.nl/wonen-leefomgeving/bestemmingsplannen-onderdeel-van/",
+        "query": "Amsterdam bestemmingsplan wijziging",
+        "source": "google_search",
+        "type": "municipality"
+      },
+      {
+        "url": "https://zoek.officielebekendmakingen.nl/gmb-2023-544717.html",
+        "query": "Amsterdam bestemmingsplan wijziging",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.planviewer.nl/bestemmingsplannen/Amsterdam",
+        "query": "Amsterdam bestemmingsplan wijziging",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.vergunningsadvies.nl/nieuws/bedrijfsruimte-of-kantoor-omzetten-naar-een-woonruimte-in-amsterdam-wat-zijn-de-afwegingen",
+        "query": "Amsterdam bestemmingsplan wijziging",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.snijders-advocaten.nl/rechtsgebieden/ruimtelijk-bestuursrecht/bestemmingsplan/",
+        "query": "Amsterdam bestemmingsplan wijziging",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.officielebekendmakingen.nl/gmb-2024-48475.html",
+        "query": "Amsterdam bestemmingsplan wijziging",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.nieuweplannen.nl/dir/0363?sortOrder=date_asc&showHistorical=True&page=225",
+        "query": "Amsterdam bestemmingsplan wijziging",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://ruimerleven.nl/publicaties/vergunning-aanvragen-amsterdam/",
+        "query": "Amsterdam bestemmingsplan wijziging",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://amsterdam.debatrijk.nl/documents/4/192/documents/1452/Raadsbesluit%202024-085C%20BP%20NvW%20Seineweg-Hornweg%20Westpoort.pdf",
+        "query": "Amsterdam bestemmingsplan wijziging",
+        "source": "google_search",
+        "type": "pdf"
+      },
+      {
+        "url": "https://openresearch.amsterdam/image/2020/7/30/amsterdamse_bestemmingsplan_catalogus.pdf",
+        "query": "Amsterdam bestemmingsplan wijziging",
+        "source": "google_search",
+        "type": "pdf"
+      },
+      {
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR660238/2",
+        "query": "Amsterdam bestemmingsplan wijziging",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://maps.amsterdam.nl/woningbouwplannen/",
+        "query": "Amsterdam woningbouw locatie",
+        "source": "google_search",
+        "type": "municipality"
+      },
+      {
+        "url": "https://www.amsterdam.nl/veelgevraagd/waar-vind-ik-een-overzicht-van-nieuwbouw-in-amsterdam-en-weesp-8f64e-kp",
+        "query": "Amsterdam woningbouw locatie",
+        "source": "google_search",
+        "type": "municipality"
+      },
+      {
+        "url": "https://www.eigenhaard.nl/",
+        "query": "Amsterdam woningbouw locatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://bredius-amsterdam.nl/",
+        "query": "Amsterdam woningbouw locatie",
+        "source": "google_search",
+        "type": "municipality"
+      },
+      {
+        "url": "https://www.marktkwartierwest.nl/",
+        "query": "Amsterdam woningbouw locatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.amsterdamwoont.nl/",
+        "query": "Amsterdam woningbouw locatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.aanhetij.com/",
+        "query": "Amsterdam woningbouw locatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.upnorth-amsterdam.nl/",
+        "query": "Amsterdam woningbouw locatie",
+        "source": "google_search",
+        "type": "municipality"
+      },
+      {
+        "url": "https://denieuwekern.nl/",
+        "query": "Amsterdam woningbouw locatie",
+        "source": "google_search",
+        "type": "other"
+      },
+      {
+        "url": "https://www.change-is.com/",
+        "query": "Amsterdam woningbouw locatie",
+        "source": "google_search",
+        "type": "other"
+      }
+    ],
+    "municipality_urls": [
+      {
+        "url": "https://www.amsterdam.nl/projecten",
+        "type": "municipality",
+        "source": "direct_check"
+      },
+      {
+        "url": "https://www.amsterdam.nl/bestemmingsplannen",
+        "type": "municipality",
+        "source": "direct_check"
+      },
+      {
+        "url": "https://www.amsterdam.nl/omgevingsvisie",
+        "type": "municipality",
+        "source": "direct_check"
+      },
+      {
+        "url": "https://amsterdam.nl/projecten",
+        "type": "municipality",
+        "source": "direct_check"
+      },
+      {
+        "url": "https://amsterdam.nl/bestemmingsplannen",
+        "type": "municipality",
+        "source": "direct_check"
+      },
+      {
+        "url": "https://amsterdam.nl/omgevingsvisie",
+        "type": "municipality",
+        "source": "direct_check"
+      }
+    ],
+    "pdf_documents": []
+  },
+  "analyzed_documents": [
+    {
+      "url": "https://amsterdam.debatrijk.nl/documents/4/192/documents/1452/Raadsbesluit%202024-085C%20BP%20NvW%20Seineweg-Hornweg%20Westpoort.pdf",
+      "type": "pdf",
+      "analysis": {
+        "document_info": {
+          "title": "Unknown PDF",
+          "url": "https://amsterdam.debatrijk.nl/documents/4/192/documents/1452/Raadsbesluit%202024-085C%20BP%20NvW%20Seineweg-Hornweg%20Westpoort.pdf",
+          "type": "bestemmingsplan",
+          "analyzed_at": "2024-11-09T21:27:10.288798"
+        },
+        "gpt_analysis": {
+          "document_type": "Bestemmingsplan",
+          "opportunities": [],
+          "key_areas": [
+            {
+              "area": "Seineweg ter hoogte van de aangepaste dubbelbestemming 'Leiding-Gas 2'",
+              "details": "Het trace van de dubbelbestemming 'Leiding-Gas 2' is aangepast"
+            }
+          ],
+          "zoning_changes": [
+            {
+              "location": "Seineweg — Hornweg Westpoort",
+              "change": "Aanpassing in het beoogde trace van de aardgasleiding en bijbehorende dubbelbestemming 'Leiding-Gas 2' en de verwijdering van een overbodige beschermingszone",
+              "details": "De wijziging heeft geen gewijzigde effecten op de omgeving"
+            }
+          ],
+          "relevant_policies": [
+            {
+              "policy": "Beschermingszone voor buisleiding zoals vastgesteld per omgevingsvergunning op 24 januari 2024",
+              "details": "Gericht op de wettelijk verplichte bescherming van de buisleiding"
+            },
+            {
+              "policy": "Stikstofonderzoek conform geactualiseerde Aeriustool",
+              "details": "Geen belemmeringen gevonden, vervanging bijlage 4 bij bestemmingsplan"
+            }
+          ]
+        },
+        "structured_info": {
+          "locations": [],
+          "sizes": [],
+          "timelines": [],
+          "developments": []
+        },
+        "opportunities": []
+      }
+    }
+  ],
+  "development_opportunities": [],
+  "visual_analyses": [
+    {
+      "maps": [],
+      "development_plans": [],
+      "other_images": []
+    }
+  ]
+}
