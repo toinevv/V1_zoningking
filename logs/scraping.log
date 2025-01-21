@@ -524,3 +524,388 @@ Analysis complete for Amsterdam:
 2024-11-09 21:27:17,056 - __main__ - INFO - - URLs discovered: 3
 2024-11-09 21:27:17,056 - __main__ - INFO - - Documents analyzed: 1
 2024-11-09 21:27:17,056 - __main__ - INFO - - Development opportunities found: 0
+2024-11-15 21:49:42,906 - __main__ - INFO - 
+==================================================
+Starting analysis for Amsterdam
+==================================================
+2024-11-15 21:49:42,936 - src.scrapers.gpt_analyzer - INFO - GPT Analyzer initialized successfully
+2024-11-15 21:49:42,936 - src.scrapers.pdf_handler - INFO - GPT Analyzer initialized successfully
+2024-11-15 21:49:42,946 - src.scrapers.gpt_analyzer - INFO - GPT Analyzer initialized successfully
+2024-11-15 21:49:42,956 - src.scrapers.gpt_analyzer - INFO - GPT Analyzer initialized successfully
+2024-11-15 21:49:42,956 - src.scrapers.pdf_handler - INFO - GPT Analyzer initialized successfully
+2024-11-15 21:49:42,961 - src.scrapers.gpt_analyzer - INFO - GPT Analyzer initialized successfully
+2024-11-15 21:49:42,969 - src.scrapers.image_map_analyzer - INFO - OpenAI client initialized for image analysis
+2024-11-15 21:49:42,970 - src.controllers.master_controller - INFO - Starting URL discovery for Amsterdam
+2024-11-15 21:49:42,970 - src.scrapers.url_discoverer - INFO - Searching Google for: Amsterdam ontwikkellocatie
+2024-11-15 21:49:45,741 - src.scrapers.url_discoverer - INFO - Searching Google for: Amsterdam omgevingsvisie 2024
+2024-11-15 21:49:48,324 - src.scrapers.url_discoverer - INFO - Searching Google for: Amsterdam bestemmingsplan wijziging
+2024-11-15 21:49:51,107 - src.scrapers.url_discoverer - INFO - Searching Google for: Amsterdam woningbouw locatie
+2024-11-15 21:49:54,496 - src.scrapers.url_discoverer - INFO - Searching Google for: site:Amsterdam.nl ontwikkeling
+2024-11-15 21:50:56,918 - src.scrapers.url_discoverer - ERROR - Error searching for site:Amsterdam.nl ontwikkeling: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite%253AAmsterdam.nl%252Bontwikkeling%26num%3D12%26hl%3Den%26start%3D0&hl=en&q=EgQ-w5n0GLDo3rkGIjAl91Q-5yPrWHC8fhhfVS9091C6ivCzG0fyb6kksaQXlLHLoRC9to95FsGEY58VEcwyAXJaAUM
+2024-11-15 21:50:56,927 - src.scrapers.url_discoverer - INFO - Searching Google for: Amsterdam gebiedsontwikkeling
+2024-11-15 21:50:57,352 - src.scrapers.url_discoverer - ERROR - Error searching for Amsterdam gebiedsontwikkeling: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmsterdam%252Bgebiedsontwikkeling%26num%3D12%26hl%3Den%26start%3D0&hl=en&q=EgQ-w5n0GLHo3rkGIjD9faW711ZOsa1hEbhGgvr139_1CQbeDUhq1vD5A1JLLXan7LUBWu_pJ-iCrfCpzN4yAXJaAUM
+2024-11-15 21:50:57,357 - src.scrapers.url_discoverer - INFO - Searching Google for: Amsterdam transformatie vastgoed
+2024-11-15 21:50:57,798 - src.scrapers.url_discoverer - ERROR - Error searching for Amsterdam transformatie vastgoed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmsterdam%252Btransformatie%252Bvastgoed%26num%3D12%26hl%3Den%26start%3D0&hl=en&q=EgQ-w5n0GLHo3rkGIjA7uAu_kYbh2B6tJWXRglwJb36d5XLEdarBal-xdmihljshmY4oT_eC4CUn-peD0pcyAXJaAUM
+2024-11-15 21:51:27,679 - src.scrapers.url_discoverer - INFO - Found 50 unique URLs for Amsterdam
+2024-11-15 21:51:27,680 - src.controllers.master_controller - INFO - Processing webpage: https://www.nul20.nl/amsterdam-zoekt-nieuwe-ontwikkellocaties-voor-20000-woningen
+2024-11-15 21:51:27,884 - src.controllers.master_controller - ERROR - Error processing webpage https://www.nul20.nl/amsterdam-zoekt-nieuwe-ontwikkellocaties-voor-20000-woningen: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:27,885 - src.controllers.master_controller - INFO - Processing PDF: https://assets.amsterdam.nl/publish/pages/1049813/240501_ontwikkelstrategie_2035_3_.pdf
+2024-11-15 21:51:27,885 - src.scrapers.pdf_handler - INFO - Downloading PDF from: https://assets.amsterdam.nl/publish/pages/1049813/240501_ontwikkelstrategie_2035_3_.pdf
+2024-11-15 21:51:28,822 - src.scrapers.pdf_handler - INFO - Processing PDF with 81 pages
+2024-11-15 21:51:28,830 - src.scrapers.pdf_handler - INFO - Processed 1/81 pages
+2024-11-15 21:51:28,915 - src.scrapers.pdf_handler - INFO - Processed 11/81 pages
+2024-11-15 21:51:28,966 - src.scrapers.pdf_handler - INFO - Processed 21/81 pages
+2024-11-15 21:51:29,025 - src.scrapers.pdf_handler - INFO - Processed 31/81 pages
+2024-11-15 21:51:29,099 - src.scrapers.pdf_handler - INFO - Processed 41/81 pages
+2024-11-15 21:51:29,144 - src.scrapers.pdf_handler - INFO - Processed 51/81 pages
+2024-11-15 21:51:29,191 - src.scrapers.pdf_handler - INFO - Processed 61/81 pages
+2024-11-15 21:51:29,301 - src.scrapers.pdf_handler - INFO - Processed 71/81 pages
+2024-11-15 21:51:29,349 - src.scrapers.pdf_handler - INFO - Processed 81/81 pages
+2024-11-15 21:51:29,349 - src.scrapers.pdf_handler - INFO - Successfully processed PDF: 202230 characters extracted
+2024-11-15 21:51:29,351 - src.scrapers.pdf_handler - INFO - Analyzing PDF content with GPT
+2024-11-15 21:51:29,351 - src.controllers.master_controller - ERROR - Error processing URL https://assets.amsterdam.nl/publish/pages/1049813/240501_ontwikkelstrategie_2035_3_.pdf: 'PDFHandler' object has no attribute 'detect_document_type'
+2024-11-15 21:51:29,351 - src.controllers.master_controller - INFO - Processing webpage: https://propertynl.com/Nieuws/Vorm-verwerft-ontwikkellocatie-in-Amsterdam-Sloterdijk/337d0433-4a03-4807-ad5e-4dc0aa85e678
+2024-11-15 21:51:30,497 - src.controllers.master_controller - ERROR - Error processing webpage https://propertynl.com/Nieuws/Vorm-verwerft-ontwikkellocatie-in-Amsterdam-Sloterdijk/337d0433-4a03-4807-ad5e-4dc0aa85e678: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:30,498 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/tenders-selectie/tenderprogramma/
+2024-11-15 21:51:30,591 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/tenders-selectie/tenderprogramma/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:30,592 - src.controllers.master_controller - INFO - Processing webpage: https://vorm.nl/actueel/vorm-en-mooi-verwerven-ontwikkellocatie-sloterdijk
+2024-11-15 21:51:30,844 - src.controllers.master_controller - ERROR - Error processing webpage https://vorm.nl/actueel/vorm-en-mooi-verwerven-ontwikkellocatie-sloterdijk: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:30,844 - src.controllers.master_controller - INFO - Processing webpage: https://www.duravermeer.nl/nieuws/dura-vermeer-koopt-ontwikkellocatie-in-amsterdam-voor-ontwikkeling-en-realisatie-middensegment-huur-en-sociale-koopwoningen/
+2024-11-15 21:51:31,177 - src.controllers.master_controller - ERROR - Error processing webpage https://www.duravermeer.nl/nieuws/dura-vermeer-koopt-ontwikkellocatie-in-amsterdam-voor-ontwikkeling-en-realisatie-middensegment-huur-en-sociale-koopwoningen/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:31,177 - src.controllers.master_controller - INFO - Processing webpage: https://www.nul20.nl/wonen/grote-projecten
+2024-11-15 21:51:31,871 - src.controllers.master_controller - ERROR - Error processing webpage https://www.nul20.nl/wonen/grote-projecten: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:31,872 - src.controllers.master_controller - INFO - Processing webpage: https://bkingenieurs.nl/project/quickscan-voor-ontwikkellocatie-zeeburgerdijk-te-amsterdam/
+2024-11-15 21:51:32,576 - src.controllers.master_controller - ERROR - Error processing webpage https://bkingenieurs.nl/project/quickscan-voor-ontwikkellocatie-zeeburgerdijk-te-amsterdam/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:32,577 - src.controllers.master_controller - INFO - Processing webpage: https://www.nieuwbouw-in-amsterdam.nl/project/6739/havenstraatterrein/
+2024-11-15 21:51:32,799 - src.controllers.master_controller - ERROR - Error processing webpage https://www.nieuwbouw-in-amsterdam.nl/project/6739/havenstraatterrein/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:32,799 - src.controllers.master_controller - INFO - Processing webpage: https://www.omgevingsweb.nl/nieuws/amsterdam-kiest-nieuwe-woningbouwstrategie-gebaseerd-op-de-diversiteit-van-de-stad/
+2024-11-15 21:51:34,155 - src.controllers.master_controller - ERROR - Error processing webpage https://www.omgevingsweb.nl/nieuws/amsterdam-kiest-nieuwe-woningbouwstrategie-gebaseerd-op-de-diversiteit-van-de-stad/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:34,156 - src.controllers.master_controller - INFO - Processing webpage: https://www.goudappel.nl/nl/projecten/knelpuntanalyse-en-simulatie-ontwikkellocatie-ijburglaan-amsterdam
+2024-11-15 21:51:34,364 - src.controllers.master_controller - ERROR - Error processing webpage https://www.goudappel.nl/nl/projecten/knelpuntanalyse-en-simulatie-ontwikkellocatie-ijburglaan-amsterdam: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:34,365 - src.controllers.master_controller - INFO - Processing webpage: https://vastgoedjournaal.nl/news/64031/vorm-en-mooi-kopen-ontwikkellocatie-sloterdijk
+2024-11-15 21:51:34,952 - src.controllers.master_controller - ERROR - Error processing webpage https://vastgoedjournaal.nl/news/64031/vorm-en-mooi-kopen-ontwikkellocatie-sloterdijk: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:34,953 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling/
+2024-11-15 21:51:35,388 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:35,389 - src.controllers.master_controller - INFO - Processing webpage: https://openresearch.amsterdam/nl/page/104808/monitor-omgevingsvisie-amsterdam-november-2023
+2024-11-15 21:51:35,961 - src.controllers.master_controller - ERROR - Error processing webpage https://openresearch.amsterdam/nl/page/104808/monitor-omgevingsvisie-amsterdam-november-2023: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:35,962 - src.controllers.master_controller - INFO - Processing webpage: https://openresearch.amsterdam/nl/page/41852/omgevingsvisie-amsterdam-2050
+2024-11-15 21:51:36,440 - src.controllers.master_controller - ERROR - Error processing webpage https://openresearch.amsterdam/nl/page/41852/omgevingsvisie-amsterdam-2050: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:36,441 - src.controllers.master_controller - INFO - Processing PDF: https://amsterdam2050.nl/wp-content/uploads/2021/09/Omgevingsvisie-Amsterdam-2050_Lage-resolutie.pdf
+2024-11-15 21:51:36,441 - src.scrapers.pdf_handler - INFO - Downloading PDF from: https://amsterdam2050.nl/wp-content/uploads/2021/09/Omgevingsvisie-Amsterdam-2050_Lage-resolutie.pdf
+2024-11-15 21:51:36,577 - src.scrapers.pdf_handler - ERROR - Error processing PDF https://amsterdam2050.nl/wp-content/uploads/2021/09/Omgevingsvisie-Amsterdam-2050_Lage-resolutie.pdf: Failed to download PDF: HTTP 403
+2024-11-15 21:51:36,582 - src.controllers.master_controller - INFO - Processing webpage: https://lokaleregelgeving-eto.overheid.nl/CVDR758162
+2024-11-15 21:51:37,435 - src.controllers.master_controller - ERROR - Error processing webpage https://lokaleregelgeving-eto.overheid.nl/CVDR758162: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:37,435 - src.controllers.master_controller - INFO - Processing webpage: https://lokaleregelgeving-eto.overheid.nl/CVDR758162/2?&show-wti=true
+2024-11-15 21:51:37,599 - src.controllers.master_controller - ERROR - Error processing webpage https://lokaleregelgeving-eto.overheid.nl/CVDR758162/2?&show-wti=true: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:37,600 - src.controllers.master_controller - INFO - Processing webpage: https://www.denationaleomgevingsvisie.nl/novex/aanpak+per+gebied/metropoolregio+amsterdam/default.aspx
+2024-11-15 21:51:37,940 - src.controllers.master_controller - ERROR - Error processing webpage https://www.denationaleomgevingsvisie.nl/novex/aanpak+per+gebied/metropoolregio+amsterdam/default.aspx: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:37,940 - src.controllers.master_controller - INFO - Processing webpage: https://www.nul20.nl/dossiers/toekomstvisie-amsterdam-2050
+2024-11-15 21:51:38,371 - src.controllers.master_controller - ERROR - Error processing webpage https://www.nul20.nl/dossiers/toekomstvisie-amsterdam-2050: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:38,371 - src.controllers.master_controller - INFO - Processing PDF: https://commissiemer.nl/projectdocumenten/00007881.pdf
+2024-11-15 21:51:38,371 - src.scrapers.pdf_handler - INFO - Downloading PDF from: https://commissiemer.nl/projectdocumenten/00007881.pdf
+2024-11-15 21:51:39,990 - src.scrapers.pdf_handler - INFO - Processing PDF with 129 pages
+2024-11-15 21:51:39,995 - src.scrapers.pdf_handler - INFO - Processed 1/129 pages
+2024-11-15 21:51:40,108 - src.scrapers.pdf_handler - INFO - Processed 11/129 pages
+2024-11-15 21:51:40,261 - src.scrapers.pdf_handler - INFO - Processed 21/129 pages
+2024-11-15 21:51:40,395 - src.scrapers.pdf_handler - INFO - Processed 31/129 pages
+2024-11-15 21:51:43,732 - src.scrapers.pdf_handler - INFO - Processed 41/129 pages
+2024-11-15 21:51:43,888 - src.scrapers.pdf_handler - INFO - Processed 51/129 pages
+2024-11-15 21:51:44,015 - src.scrapers.pdf_handler - INFO - Processed 61/129 pages
+2024-11-15 21:51:44,190 - src.scrapers.pdf_handler - INFO - Processed 71/129 pages
+2024-11-15 21:51:44,682 - src.scrapers.pdf_handler - INFO - Processed 81/129 pages
+2024-11-15 21:51:44,919 - src.scrapers.pdf_handler - INFO - Processed 91/129 pages
+2024-11-15 21:51:45,190 - src.scrapers.pdf_handler - INFO - Processed 101/129 pages
+2024-11-15 21:51:45,412 - src.scrapers.pdf_handler - INFO - Processed 111/129 pages
+2024-11-15 21:51:45,816 - src.scrapers.pdf_handler - INFO - Processed 121/129 pages
+2024-11-15 21:51:45,932 - src.scrapers.pdf_handler - INFO - Successfully processed PDF: 675928 characters extracted
+2024-11-15 21:51:45,935 - src.scrapers.pdf_handler - INFO - Analyzing PDF content with GPT
+2024-11-15 21:51:45,935 - src.controllers.master_controller - ERROR - Error processing URL https://commissiemer.nl/projectdocumenten/00007881.pdf: 'PDFHandler' object has no attribute 'detect_document_type'
+2024-11-15 21:51:45,935 - src.controllers.master_controller - INFO - Processing webpage: https://kennisvanstadenregio.nl/nieuws-1/leefomgeving/monitor-omgevingsvisie-amsterdam
+2024-11-15 21:51:46,470 - src.controllers.master_controller - ERROR - Error processing webpage https://kennisvanstadenregio.nl/nieuws-1/leefomgeving/monitor-omgevingsvisie-amsterdam: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:46,470 - src.controllers.master_controller - INFO - Processing webpage: https://vng.nl/artikelen/26-april-2024-omgevingsvisie-en-publiceren-in-stoptpod-de-techniek
+2024-11-15 21:51:47,283 - src.controllers.master_controller - ERROR - Error processing webpage https://vng.nl/artikelen/26-april-2024-omgevingsvisie-en-publiceren-in-stoptpod-de-techniek: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:47,284 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/wonen-leefomgeving/omgevingsvergunning/afwijken-van-een-bestemmingsplan/
+2024-11-15 21:51:48,062 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/wonen-leefomgeving/omgevingsvergunning/afwijken-van-een-bestemmingsplan/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:48,062 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/wonen-leefomgeving/bestemmingsplannen-onderdeel-van/
+2024-11-15 21:51:48,940 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/wonen-leefomgeving/bestemmingsplannen-onderdeel-van/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:48,941 - src.controllers.master_controller - INFO - Processing webpage: https://zoek.officielebekendmakingen.nl/gmb-2023-544717.html
+2024-11-15 21:51:49,695 - src.controllers.master_controller - ERROR - Error processing webpage https://zoek.officielebekendmakingen.nl/gmb-2023-544717.html: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:49,695 - src.controllers.master_controller - INFO - Processing webpage: https://www.planviewer.nl/bestemmingsplannen/Amsterdam
+2024-11-15 21:51:54,176 - src.controllers.master_controller - ERROR - Error processing webpage https://www.planviewer.nl/bestemmingsplannen/Amsterdam: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:54,178 - src.controllers.master_controller - INFO - Processing webpage: https://www.vergunningsadvies.nl/nieuws/bedrijfsruimte-of-kantoor-omzetten-naar-een-woonruimte-in-amsterdam-wat-zijn-de-afwegingen
+2024-11-15 21:51:54,628 - src.controllers.master_controller - ERROR - Error processing webpage https://www.vergunningsadvies.nl/nieuws/bedrijfsruimte-of-kantoor-omzetten-naar-een-woonruimte-in-amsterdam-wat-zijn-de-afwegingen: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:54,628 - src.controllers.master_controller - INFO - Processing webpage: https://www.officielebekendmakingen.nl/gmb-2024-48475.html
+2024-11-15 21:51:55,307 - src.controllers.master_controller - ERROR - Error processing webpage https://www.officielebekendmakingen.nl/gmb-2024-48475.html: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:55,307 - src.controllers.master_controller - INFO - Processing webpage: https://www.snijders-advocaten.nl/rechtsgebieden/ruimtelijk-bestuursrecht/bestemmingsplan/
+2024-11-15 21:51:55,471 - src.controllers.master_controller - ERROR - Error processing webpage https://www.snijders-advocaten.nl/rechtsgebieden/ruimtelijk-bestuursrecht/bestemmingsplan/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:55,472 - src.controllers.master_controller - INFO - Processing webpage: https://www.nieuweplannen.nl/dir/0363?sortOrder=date_asc&showHistorical=True&page=225
+2024-11-15 21:51:55,686 - src.controllers.master_controller - ERROR - Error processing webpage https://www.nieuweplannen.nl/dir/0363?sortOrder=date_asc&showHistorical=True&page=225: HTTPSConnectionPool(host='www.nieuweplannen.nl', port=443): Max retries exceeded with url: /dir/0363?sortOrder=date_asc&showHistorical=True&page=225 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997)')))
+2024-11-15 21:51:55,687 - src.controllers.master_controller - INFO - Processing webpage: https://ruimerleven.nl/publicaties/vergunning-aanvragen-amsterdam/
+2024-11-15 21:51:55,879 - src.controllers.master_controller - ERROR - Error processing webpage https://ruimerleven.nl/publicaties/vergunning-aanvragen-amsterdam/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:55,880 - src.controllers.master_controller - INFO - Processing webpage: https://lokaleregelgeving.overheid.nl/CVDR660238/2
+2024-11-15 21:51:56,231 - src.controllers.master_controller - ERROR - Error processing webpage https://lokaleregelgeving.overheid.nl/CVDR660238/2: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:51:56,232 - src.controllers.master_controller - INFO - Processing PDF: https://amsterdam.debatrijk.nl/documents/4/192/documents/1452/Raadsbesluit%202024-085C%20BP%20NvW%20Seineweg-Hornweg%20Westpoort.pdf
+2024-11-15 21:51:56,232 - src.scrapers.pdf_handler - INFO - Downloading PDF from: https://amsterdam.debatrijk.nl/documents/4/192/documents/1452/Raadsbesluit%202024-085C%20BP%20NvW%20Seineweg-Hornweg%20Westpoort.pdf
+2024-11-15 21:51:56,407 - src.scrapers.pdf_handler - INFO - Processing PDF with 3 pages
+2024-11-15 21:51:56,418 - src.scrapers.pdf_handler - INFO - Processed 1/3 pages
+2024-11-15 21:51:56,433 - src.scrapers.pdf_handler - INFO - Successfully processed PDF: 3113 characters extracted
+2024-11-15 21:51:56,435 - src.scrapers.pdf_handler - INFO - Downloading PDF from: https://amsterdam.debatrijk.nl/documents/4/192/documents/1452/Raadsbesluit%202024-085C%20BP%20NvW%20Seineweg-Hornweg%20Westpoort.pdf
+2024-11-15 21:51:56,559 - src.scrapers.pdf_handler - INFO - Processing PDF with 3 pages
+2024-11-15 21:51:56,565 - src.scrapers.pdf_handler - INFO - Processed 1/3 pages
+2024-11-15 21:51:56,583 - src.scrapers.pdf_handler - INFO - Successfully processed PDF: 3113 characters extracted
+2024-11-15 21:51:56,586 - src.scrapers.document_analyzer - INFO - Analyzing document: Unknown PDF
+2024-11-15 21:51:56,586 - src.scrapers.gpt_analyzer - INFO - Analyzing Unknown PDF in 1 chunks
+2024-11-15 21:51:56,586 - src.scrapers.gpt_analyzer - INFO - Analyzing chunk 1/1
+2024-11-15 21:51:57,028 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-11-15 21:51:57,033 - src.scrapers.gpt_analyzer - ERROR - Error in document analysis: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************************************************************************-E8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-11-15 21:51:57,531 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-11-15 21:51:57,534 - src.scrapers.image_map_analyzer - ERROR - Error analyzing image temp_image_0_0.png: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************************************************************************-E8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-11-15 21:51:57,751 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-11-15 21:51:57,752 - src.scrapers.image_map_analyzer - ERROR - Error analyzing image temp_image_0_1.png: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************************************************************************-E8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-11-15 21:51:57,985 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-11-15 21:51:57,986 - src.scrapers.image_map_analyzer - ERROR - Error analyzing image temp_image_1_0.png: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************************************************************************-E8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-11-15 21:51:58,262 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-11-15 21:51:58,263 - src.scrapers.image_map_analyzer - ERROR - Error analyzing image temp_image_1_1.png: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************************************************************************-E8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-11-15 21:51:58,492 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-11-15 21:51:58,493 - src.scrapers.image_map_analyzer - ERROR - Error analyzing image temp_image_2_0.png: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************************************************************************-E8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-11-15 21:51:58,784 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-11-15 21:51:58,785 - src.scrapers.image_map_analyzer - ERROR - Error analyzing image temp_image_2_1.png: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************************************************************************-E8A. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-11-15 21:51:58,785 - src.controllers.master_controller - INFO - Processing PDF: https://openresearch.amsterdam/image/2020/7/30/amsterdamse_bestemmingsplan_catalogus.pdf
+2024-11-15 21:51:58,785 - src.scrapers.pdf_handler - INFO - Downloading PDF from: https://openresearch.amsterdam/image/2020/7/30/amsterdamse_bestemmingsplan_catalogus.pdf
+2024-11-15 21:51:59,346 - src.scrapers.pdf_handler - INFO - Processing PDF with 24 pages
+2024-11-15 21:51:59,356 - src.scrapers.pdf_handler - INFO - Processed 1/24 pages
+2024-11-15 21:51:59,471 - src.scrapers.pdf_handler - INFO - Processed 11/24 pages
+2024-11-15 21:51:59,634 - src.scrapers.pdf_handler - INFO - Processed 21/24 pages
+2024-11-15 21:51:59,662 - src.scrapers.pdf_handler - INFO - Successfully processed PDF: 47020 characters extracted
+2024-11-15 21:51:59,663 - src.scrapers.pdf_handler - INFO - Analyzing PDF content with GPT
+2024-11-15 21:51:59,663 - src.controllers.master_controller - ERROR - Error processing URL https://openresearch.amsterdam/image/2020/7/30/amsterdamse_bestemmingsplan_catalogus.pdf: 'PDFHandler' object has no attribute 'detect_document_type'
+2024-11-15 21:51:59,663 - src.controllers.master_controller - INFO - Processing webpage: https://maps.amsterdam.nl/woningbouwplannen/
+2024-11-15 21:52:01,112 - src.controllers.master_controller - ERROR - Error processing webpage https://maps.amsterdam.nl/woningbouwplannen/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:01,113 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/veelgevraagd/waar-vind-ik-een-overzicht-van-nieuwbouw-in-amsterdam-en-weesp-8f64e-kp
+2024-11-15 21:52:01,159 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/veelgevraagd/waar-vind-ik-een-overzicht-van-nieuwbouw-in-amsterdam-en-weesp-8f64e-kp: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:01,160 - src.controllers.master_controller - INFO - Processing webpage: https://bredius-amsterdam.nl/
+2024-11-15 21:52:01,670 - src.controllers.master_controller - ERROR - Error processing webpage https://bredius-amsterdam.nl/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:01,670 - src.controllers.master_controller - INFO - Processing webpage: https://www.woningnetregioamsterdam.nl/
+2024-11-15 21:52:01,814 - src.controllers.master_controller - ERROR - Error processing webpage https://www.woningnetregioamsterdam.nl/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:01,814 - src.controllers.master_controller - INFO - Processing webpage: https://www.aanhetij.com/
+2024-11-15 21:52:02,009 - src.controllers.master_controller - ERROR - Error processing webpage https://www.aanhetij.com/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:02,010 - src.controllers.master_controller - INFO - Processing webpage: https://denieuwekern.nl/
+2024-11-15 21:52:02,123 - src.controllers.master_controller - ERROR - Error processing webpage https://denieuwekern.nl/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:02,123 - src.controllers.master_controller - INFO - Processing webpage: https://www.aanhetij.com/
+2024-11-15 21:52:02,151 - src.controllers.master_controller - ERROR - Error processing webpage https://www.aanhetij.com/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:02,151 - src.controllers.master_controller - INFO - Processing webpage: https://www.ymereversnelt.nl/nieuws/twintig-nieuwe-woningen-op-een-binnenstedelijke-locatie-in-amsterdam-oost
+2024-11-15 21:52:02,525 - src.controllers.master_controller - ERROR - Error processing webpage https://www.ymereversnelt.nl/nieuws/twintig-nieuwe-woningen-op-een-binnenstedelijke-locatie-in-amsterdam-oost: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:02,525 - src.controllers.master_controller - INFO - Processing webpage: https://www.volkshuisvestingnederland.nl/onderwerpen/grootschalige-woningbouwgebieden
+2024-11-15 21:52:03,504 - src.controllers.master_controller - ERROR - Error processing webpage https://www.volkshuisvestingnederland.nl/onderwerpen/grootschalige-woningbouwgebieden: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:03,504 - src.controllers.master_controller - INFO - Processing webpage: https://bajeskwartier.com/
+2024-11-15 21:52:04,665 - src.controllers.master_controller - ERROR - Error processing webpage https://bajeskwartier.com/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:04,666 - src.controllers.master_controller - INFO - Processing webpage: https://denieuwekern.nl/
+2024-11-15 21:52:04,759 - src.controllers.master_controller - ERROR - Error processing webpage https://denieuwekern.nl/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:04,759 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/projecten
+2024-11-15 21:52:04,799 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/projecten: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:04,799 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/bestemmingsplannen
+2024-11-15 21:52:04,876 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/bestemmingsplannen: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:04,877 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/omgevingsvisie
+2024-11-15 21:52:05,192 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/omgevingsvisie: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:05,193 - src.controllers.master_controller - INFO - Processing webpage: https://amsterdam.nl/projecten
+2024-11-15 21:52:05,299 - src.controllers.master_controller - ERROR - Error processing webpage https://amsterdam.nl/projecten: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:05,299 - src.controllers.master_controller - INFO - Processing webpage: https://amsterdam.nl/bestemmingsplannen
+2024-11-15 21:52:05,429 - src.controllers.master_controller - ERROR - Error processing webpage https://amsterdam.nl/bestemmingsplannen: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:05,429 - src.controllers.master_controller - INFO - Processing webpage: https://amsterdam.nl/omgevingsvisie
+2024-11-15 21:52:05,649 - src.controllers.master_controller - ERROR - Error processing webpage https://amsterdam.nl/omgevingsvisie: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-15 21:52:05,651 - __main__ - INFO - 
+Analysis complete for Amsterdam:
+2024-11-15 21:52:05,651 - __main__ - INFO - - URLs discovered: 3
+2024-11-15 21:52:05,651 - __main__ - INFO - - Documents analyzed: 1
+2024-11-15 21:52:05,651 - __main__ - INFO - - Development opportunities found: 0
+2024-11-17 19:11:15,248 - __main__ - INFO - 
+==================================================
+Starting analysis for Amsterdam
+==================================================
+2024-11-17 19:11:15,267 - src.scrapers.gpt_analyzer - INFO - GPT Analyzer initialized successfully
+2024-11-17 19:11:15,267 - src.scrapers.pdf_handler - INFO - GPT Analyzer initialized successfully
+2024-11-17 19:11:15,272 - src.scrapers.gpt_analyzer - INFO - GPT Analyzer initialized successfully
+2024-11-17 19:11:15,277 - src.scrapers.gpt_analyzer - INFO - GPT Analyzer initialized successfully
+2024-11-17 19:11:15,277 - src.scrapers.pdf_handler - INFO - GPT Analyzer initialized successfully
+2024-11-17 19:11:15,290 - src.scrapers.gpt_analyzer - INFO - GPT Analyzer initialized successfully
+2024-11-17 19:11:15,296 - src.scrapers.image_map_analyzer - INFO - OpenAI client initialized for image analysis
+2024-11-17 19:11:15,296 - src.controllers.master_controller - INFO - Starting URL discovery for Amsterdam
+2024-11-17 19:11:15,296 - src.scrapers.url_discoverer - INFO - Searching Google for: Amsterdam ontwikkellocatie
+2024-11-17 19:11:18,703 - src.scrapers.url_discoverer - INFO - Searching Google for: Amsterdam omgevingsvisie 2024
+2024-11-17 19:11:21,379 - src.scrapers.url_discoverer - INFO - Searching Google for: Amsterdam bestemmingsplan wijziging
+2024-11-17 19:11:24,243 - src.scrapers.url_discoverer - INFO - Searching Google for: Amsterdam woningbouw locatie
+2024-11-17 19:11:28,316 - src.scrapers.url_discoverer - INFO - Searching Google for: site:Amsterdam.nl ontwikkeling
+2024-11-17 19:12:25,314 - src.scrapers.url_discoverer - ERROR - Error searching for site:Amsterdam.nl ontwikkeling: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsite%253AAmsterdam.nl%252Bontwikkeling%26num%3D12%26hl%3Den%26start%3D0&hl=en&q=EgQ-w5n0GIrk6LkGIjDd90I8-6u4AlSqx9Ny5EFsXpMpRO4Qf-6-pQ5BryR1UZGQFQCZ9dK8E5SxIBdJdfsyAXJaAUM
+2024-11-17 19:12:25,320 - src.scrapers.url_discoverer - INFO - Searching Google for: Amsterdam gebiedsontwikkeling
+2024-11-17 19:12:25,865 - src.scrapers.url_discoverer - ERROR - Error searching for Amsterdam gebiedsontwikkeling: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmsterdam%252Bgebiedsontwikkeling%26num%3D12%26hl%3Den%26start%3D0&hl=en&q=EgQ-w5n0GIvk6LkGIjBVTsJpWMx4r-VWnd0ltSpfrJe9lCiDmmE3JNzU_q5xArc-NhzXinmhESMeh1kOAMUyAXJaAUM
+2024-11-17 19:12:25,868 - src.scrapers.url_discoverer - INFO - Searching Google for: Amsterdam transformatie vastgoed
+2024-11-17 19:12:26,460 - src.scrapers.url_discoverer - ERROR - Error searching for Amsterdam transformatie vastgoed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAmsterdam%252Btransformatie%252Bvastgoed%26num%3D12%26hl%3Den%26start%3D0&hl=en&q=EgQ-w5n0GIvk6LkGIjBykc1YXuYJmlW3iMBgPpdV1UktiuRfEwbQgobllw3A0O2F1-TuaOUy4DkCmqOai2EyAXJaAUM
+2024-11-17 19:12:56,578 - src.scrapers.url_discoverer - INFO - Found 46 unique URLs for Amsterdam
+2024-11-17 19:12:56,580 - src.controllers.master_controller - INFO - Processing webpage: https://www.nul20.nl/amsterdam-zoekt-nieuwe-ontwikkellocaties-voor-20000-woningen
+2024-11-17 19:12:56,707 - src.controllers.master_controller - ERROR - Error processing webpage https://www.nul20.nl/amsterdam-zoekt-nieuwe-ontwikkellocaties-voor-20000-woningen: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:12:56,707 - src.controllers.master_controller - INFO - Processing PDF: https://assets.amsterdam.nl/publish/pages/1049813/240501_ontwikkelstrategie_2035_3_.pdf
+2024-11-17 19:12:56,707 - src.scrapers.pdf_handler - INFO - Downloading PDF from: https://assets.amsterdam.nl/publish/pages/1049813/240501_ontwikkelstrategie_2035_3_.pdf
+2024-11-17 19:12:57,998 - src.scrapers.pdf_handler - INFO - Processing PDF with 81 pages
+2024-11-17 19:12:58,005 - src.scrapers.pdf_handler - INFO - Processed 1/81 pages
+2024-11-17 19:12:58,059 - src.scrapers.pdf_handler - INFO - Processed 11/81 pages
+2024-11-17 19:12:58,110 - src.scrapers.pdf_handler - INFO - Processed 21/81 pages
+2024-11-17 19:12:58,169 - src.scrapers.pdf_handler - INFO - Processed 31/81 pages
+2024-11-17 19:12:58,259 - src.scrapers.pdf_handler - INFO - Processed 41/81 pages
+2024-11-17 19:12:58,305 - src.scrapers.pdf_handler - INFO - Processed 51/81 pages
+2024-11-17 19:12:58,354 - src.scrapers.pdf_handler - INFO - Processed 61/81 pages
+2024-11-17 19:12:58,449 - src.scrapers.pdf_handler - INFO - Processed 71/81 pages
+2024-11-17 19:12:58,514 - src.scrapers.pdf_handler - INFO - Processed 81/81 pages
+2024-11-17 19:12:58,514 - src.scrapers.pdf_handler - INFO - Successfully processed PDF: 202230 characters extracted
+2024-11-17 19:12:58,516 - src.scrapers.pdf_handler - INFO - Analyzing PDF content with GPT
+2024-11-17 19:12:58,516 - src.controllers.master_controller - ERROR - Error processing URL https://assets.amsterdam.nl/publish/pages/1049813/240501_ontwikkelstrategie_2035_3_.pdf: 'PDFHandler' object has no attribute 'detect_document_type'
+2024-11-17 19:12:58,516 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/tenders-selectie/tenderprogramma/
+2024-11-17 19:13:07,138 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/wonen-leefomgeving/vastgoedprofessionals/tenders-selectie/tenderprogramma/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:07,139 - src.controllers.master_controller - INFO - Processing webpage: https://vorm.nl/actueel/vorm-en-mooi-verwerven-ontwikkellocatie-sloterdijk
+2024-11-17 19:13:07,375 - src.controllers.master_controller - ERROR - Error processing webpage https://vorm.nl/actueel/vorm-en-mooi-verwerven-ontwikkellocatie-sloterdijk: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:07,375 - src.controllers.master_controller - INFO - Processing webpage: https://www.nul20.nl/wonen/grote-projecten
+2024-11-17 19:13:08,082 - src.controllers.master_controller - ERROR - Error processing webpage https://www.nul20.nl/wonen/grote-projecten: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:08,082 - src.controllers.master_controller - INFO - Processing webpage: https://www.nieuwbouw-in-amsterdam.nl/project/6739/havenstraatterrein/
+2024-11-17 19:13:08,402 - src.controllers.master_controller - ERROR - Error processing webpage https://www.nieuwbouw-in-amsterdam.nl/project/6739/havenstraatterrein/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:08,403 - src.controllers.master_controller - INFO - Processing webpage: https://www.goudappel.nl/nl/projecten/knelpuntanalyse-en-simulatie-ontwikkellocatie-ijburglaan-amsterdam
+2024-11-17 19:13:08,774 - src.controllers.master_controller - ERROR - Error processing webpage https://www.goudappel.nl/nl/projecten/knelpuntanalyse-en-simulatie-ontwikkellocatie-ijburglaan-amsterdam: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:08,774 - src.controllers.master_controller - INFO - Processing webpage: https://vastgoedjournaal.nl/news/64031/vorm-en-mooi-kopen-ontwikkellocatie-sloterdijk
+2024-11-17 19:13:09,226 - src.controllers.master_controller - ERROR - Error processing webpage https://vastgoedjournaal.nl/news/64031/vorm-en-mooi-kopen-ontwikkellocatie-sloterdijk: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:09,227 - src.controllers.master_controller - INFO - Processing webpage: https://www.omgevingsweb.nl/nieuws/amsterdam-kiest-nieuwe-woningbouwstrategie-gebaseerd-op-de-diversiteit-van-de-stad/
+2024-11-17 19:13:10,436 - src.controllers.master_controller - ERROR - Error processing webpage https://www.omgevingsweb.nl/nieuws/amsterdam-kiest-nieuwe-woningbouwstrategie-gebaseerd-op-de-diversiteit-van-de-stad/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:10,436 - src.controllers.master_controller - INFO - Processing webpage: https://www.goudappel.nl/nl/projecten/knelpuntanalyse-en-simulatie-ontwikkellocatie-ijburglaan-amsterdam
+2024-11-17 19:13:10,618 - src.controllers.master_controller - ERROR - Error processing webpage https://www.goudappel.nl/nl/projecten/knelpuntanalyse-en-simulatie-ontwikkellocatie-ijburglaan-amsterdam: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:10,618 - src.controllers.master_controller - INFO - Processing webpage: https://vastgoedjournaal.nl/news/64031/vorm-en-mooi-kopen-ontwikkellocatie-sloterdijk
+2024-11-17 19:13:10,838 - src.controllers.master_controller - ERROR - Error processing webpage https://vastgoedjournaal.nl/news/64031/vorm-en-mooi-kopen-ontwikkellocatie-sloterdijk: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:10,839 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/wonen-leefomgeving/omgevingsvergunning/omgevingswet/
+2024-11-17 19:13:11,594 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/wonen-leefomgeving/omgevingsvergunning/omgevingswet/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:11,595 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling/
+2024-11-17 19:13:11,665 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/bestuur-organisatie/volg-beleid/stedelijke-ontwikkeling/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:11,666 - src.controllers.master_controller - INFO - Processing webpage: https://openresearch.amsterdam/nl/page/41852/omgevingsvisie-amsterdam-2050
+2024-11-17 19:13:11,896 - src.controllers.master_controller - ERROR - Error processing webpage https://openresearch.amsterdam/nl/page/41852/omgevingsvisie-amsterdam-2050: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:11,896 - src.controllers.master_controller - INFO - Processing PDF: https://amsterdam2050.nl/wp-content/uploads/2021/09/Omgevingsvisie-Amsterdam-2050_Lage-resolutie.pdf
+2024-11-17 19:13:11,896 - src.scrapers.pdf_handler - INFO - Downloading PDF from: https://amsterdam2050.nl/wp-content/uploads/2021/09/Omgevingsvisie-Amsterdam-2050_Lage-resolutie.pdf
+2024-11-17 19:13:12,046 - src.scrapers.pdf_handler - ERROR - Error processing PDF https://amsterdam2050.nl/wp-content/uploads/2021/09/Omgevingsvisie-Amsterdam-2050_Lage-resolutie.pdf: Failed to download PDF: HTTP 403
+2024-11-17 19:13:12,048 - src.controllers.master_controller - INFO - Processing webpage: https://lokaleregelgeving-eto.overheid.nl/CVDR758162
+2024-11-17 19:13:13,490 - src.controllers.master_controller - ERROR - Error processing webpage https://lokaleregelgeving-eto.overheid.nl/CVDR758162: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:13,490 - src.controllers.master_controller - INFO - Processing webpage: https://lokaleregelgeving-eto.overheid.nl/CVDR758162?&show-wti=true
+2024-11-17 19:13:13,671 - src.controllers.master_controller - ERROR - Error processing webpage https://lokaleregelgeving-eto.overheid.nl/CVDR758162?&show-wti=true: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:13,671 - src.controllers.master_controller - INFO - Processing webpage: https://www.denationaleomgevingsvisie.nl/novex/aanpak+per+gebied/metropoolregio+amsterdam/default.aspx
+2024-11-17 19:13:13,834 - src.controllers.master_controller - ERROR - Error processing webpage https://www.denationaleomgevingsvisie.nl/novex/aanpak+per+gebied/metropoolregio+amsterdam/default.aspx: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:13,834 - src.controllers.master_controller - INFO - Processing webpage: https://www.nul20.nl/dossiers/toekomstvisie-amsterdam-2050
+2024-11-17 19:13:14,177 - src.controllers.master_controller - ERROR - Error processing webpage https://www.nul20.nl/dossiers/toekomstvisie-amsterdam-2050: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:14,177 - src.controllers.master_controller - INFO - Processing PDF: https://commissiemer.nl/projectdocumenten/00007881.pdf
+2024-11-17 19:13:14,177 - src.scrapers.pdf_handler - INFO - Downloading PDF from: https://commissiemer.nl/projectdocumenten/00007881.pdf
+2024-11-17 19:13:14,844 - src.scrapers.pdf_handler - INFO - Processing PDF with 129 pages
+2024-11-17 19:13:14,849 - src.scrapers.pdf_handler - INFO - Processed 1/129 pages
+2024-11-17 19:13:14,943 - src.scrapers.pdf_handler - INFO - Processed 11/129 pages
+2024-11-17 19:13:15,126 - src.scrapers.pdf_handler - INFO - Processed 21/129 pages
+2024-11-17 19:13:15,262 - src.scrapers.pdf_handler - INFO - Processed 31/129 pages
+2024-11-17 19:13:18,669 - src.scrapers.pdf_handler - INFO - Processed 41/129 pages
+2024-11-17 19:13:18,826 - src.scrapers.pdf_handler - INFO - Processed 51/129 pages
+2024-11-17 19:13:18,953 - src.scrapers.pdf_handler - INFO - Processed 61/129 pages
+2024-11-17 19:13:19,132 - src.scrapers.pdf_handler - INFO - Processed 71/129 pages
+2024-11-17 19:13:19,591 - src.scrapers.pdf_handler - INFO - Processed 81/129 pages
+2024-11-17 19:13:19,871 - src.scrapers.pdf_handler - INFO - Processed 91/129 pages
+2024-11-17 19:13:20,197 - src.scrapers.pdf_handler - INFO - Processed 101/129 pages
+2024-11-17 19:13:20,416 - src.scrapers.pdf_handler - INFO - Processed 111/129 pages
+2024-11-17 19:13:20,841 - src.scrapers.pdf_handler - INFO - Processed 121/129 pages
+2024-11-17 19:13:20,960 - src.scrapers.pdf_handler - INFO - Successfully processed PDF: 675928 characters extracted
+2024-11-17 19:13:20,963 - src.scrapers.pdf_handler - INFO - Analyzing PDF content with GPT
+2024-11-17 19:13:20,963 - src.controllers.master_controller - ERROR - Error processing URL https://commissiemer.nl/projectdocumenten/00007881.pdf: 'PDFHandler' object has no attribute 'detect_document_type'
+2024-11-17 19:13:20,963 - src.controllers.master_controller - INFO - Processing webpage: https://kennisvanstadenregio.nl/nieuws-1/leefomgeving/monitor-omgevingsvisie-amsterdam
+2024-11-17 19:13:21,318 - src.controllers.master_controller - ERROR - Error processing webpage https://kennisvanstadenregio.nl/nieuws-1/leefomgeving/monitor-omgevingsvisie-amsterdam: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:21,319 - src.controllers.master_controller - INFO - Processing webpage: https://vng.nl/artikelen/26-april-2024-omgevingsvisie-en-publiceren-in-stoptpod-de-techniek
+2024-11-17 19:13:21,922 - src.controllers.master_controller - ERROR - Error processing webpage https://vng.nl/artikelen/26-april-2024-omgevingsvisie-en-publiceren-in-stoptpod-de-techniek: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:21,923 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/wonen-leefomgeving/omgevingsvergunning/afwijken-van-een-bestemmingsplan/
+2024-11-17 19:13:22,711 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/wonen-leefomgeving/omgevingsvergunning/afwijken-van-een-bestemmingsplan/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:22,712 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/wonen-leefomgeving/bestemmingsplannen-onderdeel-van/
+2024-11-17 19:13:22,748 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/wonen-leefomgeving/bestemmingsplannen-onderdeel-van/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:22,748 - src.controllers.master_controller - INFO - Processing webpage: https://zoek.officielebekendmakingen.nl/gmb-2023-544717.html
+2024-11-17 19:13:23,629 - src.controllers.master_controller - ERROR - Error processing webpage https://zoek.officielebekendmakingen.nl/gmb-2023-544717.html: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:23,630 - src.controllers.master_controller - INFO - Processing webpage: https://www.planviewer.nl/bestemmingsplannen/Amsterdam
+2024-11-17 19:13:27,779 - src.controllers.master_controller - ERROR - Error processing webpage https://www.planviewer.nl/bestemmingsplannen/Amsterdam: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:27,779 - src.controllers.master_controller - INFO - Processing webpage: https://www.officielebekendmakingen.nl/gmb-2024-48475.html
+2024-11-17 19:13:28,388 - src.controllers.master_controller - ERROR - Error processing webpage https://www.officielebekendmakingen.nl/gmb-2024-48475.html: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:28,389 - src.controllers.master_controller - INFO - Processing webpage: https://www.vergunningsadvies.nl/nieuws/bedrijfsruimte-of-kantoor-omzetten-naar-een-woonruimte-in-amsterdam-wat-zijn-de-afwegingen
+2024-11-17 19:13:28,767 - src.controllers.master_controller - ERROR - Error processing webpage https://www.vergunningsadvies.nl/nieuws/bedrijfsruimte-of-kantoor-omzetten-naar-een-woonruimte-in-amsterdam-wat-zijn-de-afwegingen: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:28,767 - src.controllers.master_controller - INFO - Processing webpage: https://www.w-land.nl/pages/omgevingsvergunning-wijziging-bestemmingsplan.html
+2024-11-17 19:13:28,878 - src.controllers.master_controller - ERROR - Error processing webpage https://www.w-land.nl/pages/omgevingsvergunning-wijziging-bestemmingsplan.html: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:28,879 - src.controllers.master_controller - INFO - Processing webpage: https://www.snijders-advocaten.nl/rechtsgebieden/ruimtelijk-bestuursrecht/bestemmingsplan/
+2024-11-17 19:13:29,002 - src.controllers.master_controller - ERROR - Error processing webpage https://www.snijders-advocaten.nl/rechtsgebieden/ruimtelijk-bestuursrecht/bestemmingsplan/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:29,002 - src.controllers.master_controller - INFO - Processing webpage: https://www.nieuweplannen.nl/dir/0363?sortOrder=date_asc&showHistorical=True&page=225
+2024-11-17 19:13:29,121 - src.controllers.master_controller - ERROR - Error processing webpage https://www.nieuweplannen.nl/dir/0363?sortOrder=date_asc&showHistorical=True&page=225: HTTPSConnectionPool(host='www.nieuweplannen.nl', port=443): Max retries exceeded with url: /dir/0363?sortOrder=date_asc&showHistorical=True&page=225 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997)')))
+2024-11-17 19:13:29,122 - src.controllers.master_controller - INFO - Processing webpage: https://ruimerleven.nl/publicaties/vergunning-aanvragen-amsterdam/
+2024-11-17 19:13:30,568 - src.controllers.master_controller - ERROR - Error processing webpage https://ruimerleven.nl/publicaties/vergunning-aanvragen-amsterdam/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:30,568 - src.controllers.master_controller - INFO - Processing PDF: https://amsterdam.debatrijk.nl/documents/4/192/documents/1452/Raadsbesluit%202024-085C%20BP%20NvW%20Seineweg-Hornweg%20Westpoort.pdf
+2024-11-17 19:13:30,568 - src.scrapers.pdf_handler - INFO - Downloading PDF from: https://amsterdam.debatrijk.nl/documents/4/192/documents/1452/Raadsbesluit%202024-085C%20BP%20NvW%20Seineweg-Hornweg%20Westpoort.pdf
+2024-11-17 19:13:30,720 - src.scrapers.pdf_handler - INFO - Processing PDF with 3 pages
+2024-11-17 19:13:30,729 - src.scrapers.pdf_handler - INFO - Processed 1/3 pages
+2024-11-17 19:13:30,741 - src.scrapers.pdf_handler - INFO - Successfully processed PDF: 3113 characters extracted
+2024-11-17 19:13:30,743 - src.scrapers.pdf_handler - INFO - Downloading PDF from: https://amsterdam.debatrijk.nl/documents/4/192/documents/1452/Raadsbesluit%202024-085C%20BP%20NvW%20Seineweg-Hornweg%20Westpoort.pdf
+2024-11-17 19:13:30,849 - src.scrapers.pdf_handler - INFO - Processing PDF with 3 pages
+2024-11-17 19:13:30,854 - src.scrapers.pdf_handler - INFO - Processed 1/3 pages
+2024-11-17 19:13:30,868 - src.scrapers.pdf_handler - INFO - Successfully processed PDF: 3113 characters extracted
+2024-11-17 19:13:30,871 - src.scrapers.document_analyzer - INFO - Analyzing document: Unknown PDF
+2024-11-17 19:13:30,871 - src.scrapers.gpt_analyzer - INFO - Analyzing Unknown PDF in 1 chunks
+2024-11-17 19:13:30,871 - src.scrapers.gpt_analyzer - INFO - Analyzing chunk 1/1
+2024-11-17 19:13:41,646 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-17 19:13:41,656 - src.scrapers.gpt_analyzer - INFO - Analysis complete for Unknown PDF
+2024-11-17 19:13:41,657 - src.scrapers.gpt_analyzer - INFO - Found 0 opportunities
+2024-11-17 19:13:41,919 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-11-17 19:13:41,920 - src.scrapers.image_map_analyzer - ERROR - Error analyzing image temp_image_0_0.png: Error code: 404 - {'error': {'message': 'The model `gpt-4-vision-preview` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2024-11-17 19:13:42,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-11-17 19:13:42,113 - src.scrapers.image_map_analyzer - ERROR - Error analyzing image temp_image_0_1.png: Error code: 404 - {'error': {'message': 'The model `gpt-4-vision-preview` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2024-11-17 19:13:42,352 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-11-17 19:13:42,353 - src.scrapers.image_map_analyzer - ERROR - Error analyzing image temp_image_1_0.png: Error code: 404 - {'error': {'message': 'The model `gpt-4-vision-preview` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2024-11-17 19:13:42,565 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-11-17 19:13:42,567 - src.scrapers.image_map_analyzer - ERROR - Error analyzing image temp_image_1_1.png: Error code: 404 - {'error': {'message': 'The model `gpt-4-vision-preview` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2024-11-17 19:13:42,729 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-11-17 19:13:42,730 - src.scrapers.image_map_analyzer - ERROR - Error analyzing image temp_image_2_0.png: Error code: 404 - {'error': {'message': 'The model `gpt-4-vision-preview` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2024-11-17 19:13:42,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-11-17 19:13:42,899 - src.scrapers.image_map_analyzer - ERROR - Error analyzing image temp_image_2_1.png: Error code: 404 - {'error': {'message': 'The model `gpt-4-vision-preview` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2024-11-17 19:13:42,899 - src.controllers.master_controller - INFO - Processing PDF: https://openresearch.amsterdam/image/2020/7/30/amsterdamse_bestemmingsplan_catalogus.pdf
+2024-11-17 19:13:42,899 - src.scrapers.pdf_handler - INFO - Downloading PDF from: https://openresearch.amsterdam/image/2020/7/30/amsterdamse_bestemmingsplan_catalogus.pdf
+2024-11-17 19:13:43,175 - src.scrapers.pdf_handler - INFO - Processing PDF with 24 pages
+2024-11-17 19:13:43,180 - src.scrapers.pdf_handler - INFO - Processed 1/24 pages
+2024-11-17 19:13:43,314 - src.scrapers.pdf_handler - INFO - Processed 11/24 pages
+2024-11-17 19:13:43,455 - src.scrapers.pdf_handler - INFO - Processed 21/24 pages
+2024-11-17 19:13:43,483 - src.scrapers.pdf_handler - INFO - Successfully processed PDF: 47020 characters extracted
+2024-11-17 19:13:43,484 - src.scrapers.pdf_handler - INFO - Analyzing PDF content with GPT
+2024-11-17 19:13:43,484 - src.controllers.master_controller - ERROR - Error processing URL https://openresearch.amsterdam/image/2020/7/30/amsterdamse_bestemmingsplan_catalogus.pdf: 'PDFHandler' object has no attribute 'detect_document_type'
+2024-11-17 19:13:43,484 - src.controllers.master_controller - INFO - Processing webpage: https://maps.amsterdam.nl/woningbouwplannen/
+2024-11-17 19:13:43,693 - src.controllers.master_controller - ERROR - Error processing webpage https://maps.amsterdam.nl/woningbouwplannen/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:43,694 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/veelgevraagd/waar-vind-ik-een-overzicht-van-nieuwbouw-in-amsterdam-en-weesp-8f64e-kp
+2024-11-17 19:13:43,793 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/veelgevraagd/waar-vind-ik-een-overzicht-van-nieuwbouw-in-amsterdam-en-weesp-8f64e-kp: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:43,793 - src.controllers.master_controller - INFO - Processing webpage: https://www.eigenhaard.nl/
+2024-11-17 19:13:43,919 - src.controllers.master_controller - ERROR - Error processing webpage https://www.eigenhaard.nl/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:43,919 - src.controllers.master_controller - INFO - Processing webpage: https://bredius-amsterdam.nl/
+2024-11-17 19:13:44,416 - src.controllers.master_controller - ERROR - Error processing webpage https://bredius-amsterdam.nl/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:44,417 - src.controllers.master_controller - INFO - Processing webpage: http://www.ymere.nl/projecten/ijdoorn/
+2024-11-17 19:13:44,601 - src.controllers.master_controller - ERROR - Error processing webpage http://www.ymere.nl/projecten/ijdoorn/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:44,602 - src.controllers.master_controller - INFO - Processing webpage: https://thehive.amsterdam/
+2024-11-17 19:13:44,754 - src.controllers.master_controller - ERROR - Error processing webpage https://thehive.amsterdam/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:44,754 - src.controllers.master_controller - INFO - Processing webpage: https://mijnwoonlocatie.amsterdam/
+2024-11-17 19:13:44,902 - src.controllers.master_controller - ERROR - Error processing webpage https://mijnwoonlocatie.amsterdam/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:44,902 - src.controllers.master_controller - INFO - Processing webpage: https://thehive.amsterdam/
+2024-11-17 19:13:44,944 - src.controllers.master_controller - ERROR - Error processing webpage https://thehive.amsterdam/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:44,944 - src.controllers.master_controller - INFO - Processing webpage: https://www.aanhetij.com/
+2024-11-17 19:13:45,065 - src.controllers.master_controller - ERROR - Error processing webpage https://www.aanhetij.com/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:45,066 - src.controllers.master_controller - INFO - Processing webpage: https://thehive.amsterdam/
+2024-11-17 19:13:45,092 - src.controllers.master_controller - ERROR - Error processing webpage https://thehive.amsterdam/: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:45,093 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/projecten
+2024-11-17 19:13:45,143 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/projecten: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:45,144 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/bestemmingsplannen
+2024-11-17 19:13:45,231 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/bestemmingsplannen: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:45,231 - src.controllers.master_controller - INFO - Processing webpage: https://www.amsterdam.nl/omgevingsvisie
+2024-11-17 19:13:45,501 - src.controllers.master_controller - ERROR - Error processing webpage https://www.amsterdam.nl/omgevingsvisie: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:45,502 - src.controllers.master_controller - INFO - Processing webpage: https://amsterdam.nl/projecten
+2024-11-17 19:13:46,873 - src.controllers.master_controller - ERROR - Error processing webpage https://amsterdam.nl/projecten: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:46,874 - src.controllers.master_controller - INFO - Processing webpage: https://amsterdam.nl/bestemmingsplannen
+2024-11-17 19:13:47,023 - src.controllers.master_controller - ERROR - Error processing webpage https://amsterdam.nl/bestemmingsplannen: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:47,023 - src.controllers.master_controller - INFO - Processing webpage: https://amsterdam.nl/omgevingsvisie
+2024-11-17 19:13:47,161 - src.controllers.master_controller - ERROR - Error processing webpage https://amsterdam.nl/omgevingsvisie: 'PDFHandler' object has no attribute 'extract_text'
+2024-11-17 19:13:47,165 - __main__ - INFO - 
+Analysis complete for Amsterdam:
+2024-11-17 19:13:47,165 - __main__ - INFO - - URLs discovered: 3
+2024-11-17 19:13:47,165 - __main__ - INFO - - Documents analyzed: 1
+2024-11-17 19:13:47,165 - __main__ - INFO - - Development opportunities found: 0
